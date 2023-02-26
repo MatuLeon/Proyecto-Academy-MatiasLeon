@@ -63,6 +63,14 @@ input{
     outline: none;
 }
 
+.mensajeError{
+    color: red;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
 .thermsAndConditions{
     margin-bottom: 20px;
 }
