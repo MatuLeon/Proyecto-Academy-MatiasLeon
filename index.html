@@ -4,69 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon-ico.png">
     <link rel="stylesheet" href="style.css">
     <title>Curriculum Vitae</title>
 </head>
 <body>
+    <main>
     <div class="container">
         <form action="" class="form" method="post">
             <h1>Curriculum Vitae</h1>
 
 
-            <div class="input-form">
+            <div class="input-form userName">
                 <label for="userName">Nombre</label>
                 <input type="text" id="userName">
                 <p class="mensajeError"></p>
             </div>
 
 
-            <div class="input-form">
+            <div class="input-form userSurname">
                 <label for="userSurname">Apellido</label>
                 <input type="text" id="userSurname">
                 <p class="mensajeError"></p>
             </div>
 
 
-            <div class="input-form">
+            <div class="input-form userID">
                 <label for="userID">Documento nacional (sin puntos)</label>
                 <input type="number" id="userID">
                 <p class="mensajeError"></p>
             </div>
 
 
-            <div class="input-form">
+            <div class="input-form userNacionality">
                 <label for="userNacionality">Nacionalidad</label>
                 <input type="text" id="userNacionality">
                 <p class="mensajeError"></p>
             </div>
 
 
-            <div class="input-form">
+            <div class="input-form userMobile">
                 <label for="userMobile">Número de Telefono</label>
                 <input type="number" id="userMobile">
                 <p class="mensajeError"></p>
             </div>
 
 
-            <div class="input-form">
+            <div class="input-form userEmail">
                 <label for="userEmail">Correo Electrónico</label>
                 <input type="email" id="userEmail">
                 <p class="mensajeError"></p>
             </div>
 
+            <h3>Experiencia</h3>
+
+            <div class="input-form experience">
+                <label for="experience">Última u actual experiencia laboral</label>
+                <input type="text" id="experience">
+            </div>
+
+            <div class="input-form tasksJob">
+                <label for="tasksJobs">Ingrese las tareas que realiza o realizaba</label>
+                <textarea name="tasksJobs" id="tasksJobs" rows="5"></textarea>
+            </div>
+
+            <h3>Habilidades</h3>
+
+            <div class="input-form habilities">
+                <label for="habilities">Ingrese habilidades que considere importantes para tener en cuenta</label>
+                <textarea name="habilities" id="habilities" cols="30" rows="10"></textarea>
+            </div>
 
             <div class="thermsAndConditions">
                 <label for="thermsAndConditions">He leído y acepto los <a href="#">Términos y Condiciones</a></label>
                 <input type="checkbox" id="thermsAndConditions">
+                <p class="mensajeError"></p>
             </div>
-
             
             <div>
                 <input type="submit" value="Enviar" class="form-Bottom">
             </div>
+            <p class="mensajeCompleto"></p>
         </form>
     </div>
-
+    </main>
     <script src="js/index.js"></script>
 
 </body>

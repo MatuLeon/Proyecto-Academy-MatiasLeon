@@ -11,6 +11,7 @@ body{
     background: url(./assets/entrevista.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center ;
     margin: 0;
 }
 
@@ -19,7 +20,7 @@ body{
 .container{
     max-width: 90vw;
     margin: auto;
-    margin-top: 20px;
+
 }
 
 
@@ -29,8 +30,7 @@ body{
 .form{
     max-width: 40vw;
     margin: auto;
-    margin-top: 10px;
-    background-color: aquamarine;
+    background-color: rgba(128, 128, 128, 0.623);
     padding: 30px;
 }
 
@@ -38,8 +38,14 @@ h1{
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 40px;
-    padding-bottom: 20px;
     letter-spacing: 3px;
+    margin: 0 0 20px 0;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin: 5px 0;
 }
 
 
@@ -63,17 +69,20 @@ input{
     outline: none;
 }
 
+textarea{
+    resize: none;
+    width: 100%;
+}
+
 .mensajeError{
     color: red;
     font-family: 'Source Sans Pro', sans-serif;
-    margin-top: 0;
+    margin: 0 0 5px 0;
     font-weight: bold;
     letter-spacing: 3px;
 }
 
-.thermsAndConditions{
-    margin-bottom: 20px;
-}
+
 
 #thermsAndConditions{
     width: auto;
@@ -98,5 +107,15 @@ input{
     background-color: rgba(1, 35, 39, 0.719);
     transition: all 0.4s ease;
     cursor: pointer;
+}
+
+.mensajeCompleto{
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 20px;
 }
 
