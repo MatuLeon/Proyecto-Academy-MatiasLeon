@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/favicon-ico.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="a-efect">Datos</a></li>
+                <li><a href="./pages/educacion.html" class="a-efect">Educación y cursos</a></li>
+                <li><a href="./pages/experiencia.html" class="a-efect">Experiencia</a></li>
+                <li><a href="./pages/carta_presentacion.html" class="a-efect">Carta presentación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="sectionIndex">
+            <img src="./assets/fotoCV.webp" alt="fotoCV">
+            <div class="containerDatos">
+
+                <div class="userData" >
+                    <h3>Nombre completo</h3>
+                    <input type="text" placeholder="Miguel Ortega" required id="userName">
+                </div>
+
+                <div class="userData">
+                    <h3>Fecha de nacimiento</h3>
+                    <input type="date" id="userBirth" required>
+                </div>
+
+
+                <div class="userData">
+                    <h3>DNI (sin puntos)</h3>
+                    <input type="text" placeholder="11111111" id="userID">
+                </div>
+
+                <div class="userData">
+                    <h3>Correo electrónico</h2>
+                    <input type="email" placeholder="miguelortegua@gmail.com" id="userEmail" required>
+                </div>
+
+                <div class="userData">
+                    <h3>Número de teléfono</h3>
+                    <input type="number" placeholder="221444829" id="userPhone" required>
+                </div>
+
+                <div class="userData">
+                    <h3>Localidad</h3>
+                    <input type="text" placeholder="Buenos Aires" id="userLocation" required>
+                </div>
+
+                <div class="userData">
+                    <h3>Dirección</h3>
+                    <input type="text" placeholder="Av. Corriente 123" id="userAddress">
+                </div>
+
+                <a href="./pages/educacion.html"><input type="button" value="Continuar" id="button1" class="button"></a>
+            </div>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div>
+            <p>&#169 Copyright 2023</p> 
+        </div>
+
+        <div>
+            <p>Creado por 
+                <a href="https://github.com/MatuLeon" class="a-efect">
+                    Matías León
+                </a>
+            </p>
+        </div>
+
+    </footer>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
